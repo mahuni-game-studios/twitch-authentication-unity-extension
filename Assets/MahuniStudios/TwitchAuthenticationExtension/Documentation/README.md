@@ -17,13 +17,13 @@ public class YourUnityClass : MonoBehaviour
     private void Start()
     {        
         // Register to authentication finished event
-        TwitchWebRequestAuthentication.OnAuthenticated += OnAuthenticated;
+        TwitchAuthentication.OnAuthenticated += OnAuthenticated;
         
         // Set relevant information to the connection
-        TwitchWebRequestAuthentication.ConnectionInformation infos = new("your-client-id", new List<string>(){TwitchWebRequestAuthentication.ConnectionInformation.CHANNEL_MANAGE_REDEMPTIONS});
+        TwitchAuthentication.ConnectionInformation infos = new("your-client-id", new List<string>(){TwitchWebRequestAuthentication.ConnectionInformation.CHANNEL_MANAGE_REDEMPTIONS});
         
         // Start authentication
-        TwitchWebRequestAuthentication.StartAuthenticationValidation(this, infos);
+        TwitchAuthentication.StartAuthenticationValidation(this, infos);
     }
     
     // Authentication has finished
@@ -55,5 +55,5 @@ To be able to interact with the Twitch API, you need to register your Twitch app
 To use the provided `TwitchAuthenticationExtension_Demo` scene, the `TextMeshPro` package is required. If you do not have it yet imported into your project, simply opening the `TwitchAuthenticationExtension_Demo.scene` will ask if you want to import it. Select the `Import TMP Essentials` option, close the `TMP Importer` and you are good to go.
 
 ### Setup project
-1. Either open this project or import it to your own project in the Unity Editor
+1. Either open this project directly or import it to your own project in the Unity Editor
 2. Start using the `TwitchAuthentication` script right away, or take a look into the `TwitchAuthenticationExtension_Demo` scene to find an easy example implementation.

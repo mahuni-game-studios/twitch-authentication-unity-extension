@@ -1,0 +1,1 @@
+./Assets/MahuniStudios/TwitchAuthenticationExtension/Documentation/LICENSE.md

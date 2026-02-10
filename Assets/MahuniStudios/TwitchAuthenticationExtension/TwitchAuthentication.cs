@@ -306,6 +306,7 @@ namespace Mahuni.Twitch.Extension
             public const string CHANNEL_MANAGE_POLLS = "channel:manage:polls";
             public const string CHAT_READ = "chat:read";
             public const string CHAT_EDIT = "chat:edit";
+            public const string USER_CHAT_READ = "user:read:chat";
             public const string USER_READ_SUBSCRIPTIONS = "user:read:subscriptions";
 
             public ConnectionInformation(string twitchClientId, List<string> scopeList)

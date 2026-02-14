@@ -304,6 +304,9 @@ namespace Mahuni.Twitch.Extension
             // Find more examples on permissions here: https://dev.twitch.tv/docs/authentication/scopes/
             public const string CHANNEL_MANAGE_REDEMPTIONS = "channel:manage:redemptions";
             public const string CHANNEL_MANAGE_POLLS = "channel:manage:polls";
+            public const string CHANNEL_MANAGE_PREDICTIONS = "channel:manage:predictions";
+            public const string CHANNEL_MANAGE_GUEST_START = "channel:manage:guest_star";
+            public const string CHANNEL_MANAGE_GUEST_VIPS = "channel:manage:vips";
             public const string CHAT_READ = "chat:read";
             public const string CHAT_EDIT = "chat:edit";
             public const string USER_CHAT_READ = "user:read:chat";

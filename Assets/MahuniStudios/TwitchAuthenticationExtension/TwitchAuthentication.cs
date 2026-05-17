@@ -308,6 +308,7 @@ namespace Mahuni.Twitch.Extension
             public const string CHANNEL_MANAGE_GUEST_START = "channel:manage:guest_star";
             public const string CHANNEL_MANAGE_GUEST_VIPS = "channel:manage:vips";
             public const string CHANNEL_READ_ADS = "channel:read:ads";
+            public const string CHANNEL_MANAGE_ADS = "channel:manage:ads";
             public const string CHAT_READ = "chat:read";
             public const string CHAT_EDIT = "chat:edit";
             public const string USER_CHAT_READ = "user:read:chat";

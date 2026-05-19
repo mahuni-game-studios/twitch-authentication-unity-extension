@@ -311,6 +311,9 @@ namespace Mahuni.Twitch.Extension
             public const string CHANNEL_MANAGE_ADS = "channel:manage:ads";
             public const string CHAT_READ = "chat:read";
             public const string CHAT_EDIT = "chat:edit";
+            public const string CHAT_WRITE = "user:write:chat";
+            public const string CHAT_MANAGE_ANNOUNCEMENTS = "moderator:manage:announcements";
+            public const string CHAT_MANAGE_MESSAGES = "moderator:manage:chat_messages";
             public const string USER_CHAT_READ = "user:read:chat";
             public const string USER_READ_SUBSCRIPTIONS = "user:read:subscriptions";
 
